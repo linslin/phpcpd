@@ -168,7 +168,7 @@ final class Command extends AbstractCommand
         }
 
         if (\count($clones) > 0) {
-            exit(1);
+            exit(0);
         }
     }
 
